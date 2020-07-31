@@ -1,0 +1,16 @@
+locate 命令查找文件所在目录
+/**/
+使用git命令下载代码，需要用github镜像源 https://github.com.cnpmjs.org/
+指令为
+git clone https://github.com.cnpmjs.org/BVLC/caffe.git 文件夹名称
+terminal一般打开在/home 目录下
+因此下载的文件也是在/home目录下
+/**/
+如何删除通过 apt 命令安装的软件？
+卸载软件和配置文件
+apt-get purge [package]
+移除没有使用的依赖
+apt-get autoremove [package]
+/**/
+如何运行.sh 脚本文件
+切换到脚本文件所在的当前目录下，./xxx.sh 即可运行
